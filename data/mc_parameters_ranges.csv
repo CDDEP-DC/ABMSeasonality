@@ -1,0 +1,4 @@
+parameters,min,max,step
+transmission,0.01,0.09,0.02
+seasonality,1,2,0.25
+admission_prev,0.05,0.1,0.02
