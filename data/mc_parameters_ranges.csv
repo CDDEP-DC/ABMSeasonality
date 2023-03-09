@@ -1,0 +1,30 @@
+parameter,owner,model_param_name,min,max
+highly susceptible ratio,unit,admissionX,0.5,0.9
+admission_colonized,unit,admissionC,0.01,0.15
+primary nurse visit ratio,unit,primaryNurseVisitRatio,0.5,1
+HCW compliance variability from mean,other,sigma_c,0,1
+physician hygiene compliance enter mean,ICU,doctorHygieneComplianceEnterMean,0.05,0.095
+physician hygiene compliance exit mean,ICU,doctorHygieneComplianceExitMean,0.05,0.095
+physician ppe compliance mean,ICU,doctorPPEComplianceMean,0.05,0.095
+nurse hygiene compliance enter mean,unit,nurseHygieneComplianceEnterMean,0.05,0.095
+nurse hygiene compliance exit mean,unit,nurseHygieneComplianceExitMean,0.05,0.095
+nurse ppe compliance mean,unit,nursePPEComplianceMean,0.05,0.095
+Contact rate variability from mean,other,sigma_v,0,1
+physician_contacts_per_patient_day_mean_CP,ICU,doctorContactsCPMean,1,6
+physician_contacts_per_patient_day_mean_NCP,ICU,doctorContactsNCPMean,6,10
+nurse_contacts_per_patient_day_mean_CP,unit,nurseContactsCPMean,15,25
+nurse_contacts_per_patient_day_mean_NCP,unit,nurseContactsNCPMean,25,35
+Terminal room disinfection efficacy,transmission,sigmaHat_y,0.4,0.6
+Hands hygiene efficacy,transmission,sigmaHat_h,0.7,0.99
+Transmission increase factor for highly susceptible,transmission,pi,1.5,3.5
+Mean probability of room contamination by colonized/infected patients per day,transmission,eta,0.01,0.05
+Mean probability of transmission from contaminated HCW to susceptible patient,transmission,beta_hp,0.005,0.025
+Mean probability of transmission from colonized/infected patient to uncontaminated HCW ,transmission,beta_ph,0.01,0.05
+Mean probability of HCW contamination from contaminated environment,transmission,beta_eh,0.01,0.05
+Mean probability of environmental contamination from contaminated HCW,transmission,beta_he,0.01,0.05
+Probability of colonization to infection,transmission,kappa,0,0.02
+Probability of direct infection from exposure,transmission,epsilon,0,0.05
+Probability of patient direct environmental colonization,transmission,zeta,0,0.05
+Shedding increase factor for infected,transmission,rho_I,1,2
+Pathogen natural clearance rate from dry surfaces per day,transmission,sigma_y,0,0.01
+Seasonality strength in admission prevalence,transmission,seasonality_strength,1,2

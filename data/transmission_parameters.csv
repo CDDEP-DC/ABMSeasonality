@@ -1,0 +1,21 @@
+parameters,description,value,unit
+omega,infection recovery,7,day
+alpha_b,background_transmission_probability,0,day
+pi,Transmission increase factor for highly susceptible,1.5,
+epsilon,probability of direct infection from exposure,0,
+kappa,probability of colonization to infection,0.01,per day
+zeta,probability of environmental colonization ,0,per day
+eta,probability of room contamination by colonized/infected patient per day,0.05,
+delta,probability of death,0,per day
+rho_I,shedding increase factor for infected,1.5,
+sigma_y,pathogen natural clearance rate from dry surfaces,0,per day
+sigma_w,pathogen natural clearance rate from wet surfaces,0,per day
+sigmaHat_y,disinfection efficacy from dry surfaces,0.5,
+sigmaHat_w,disinfection efficacy from wet surfaces,0.5,
+sigmaHat_h,disinfection efficacy from hands (hygiene),0.8,
+beta_hp,mean probability of transmission from contaminated hcw to susceptible patient,0.01,
+beta_ph,mean probability of transmission from colonized/infected patient to uncontaminated hcw,0.02,
+beta_eh,mean probability of HCW contamination from contaminated environment,0.02,
+beta_he,mean probability of environmental contamination from contaminated HCW,0.02,
+seasonality_quarter,,3,
+seasonality_strength,,2,
