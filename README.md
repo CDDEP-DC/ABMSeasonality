@@ -1,5 +1,6 @@
 # Title of Dataset
 ---
+[![DOI](https://zenodo.org/badge/588736534.svg)](https://zenodo.org/badge/latestdoi/588736534)
 
 Python code for Deconstructing the effects of stochasticity on transmission of hospital-acquired infections in ICUs
 
